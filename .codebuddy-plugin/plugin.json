@@ -1,0 +1,21 @@
+{
+  "name": "ccs-security",
+  "version": "1.2.16",
+  "description": "CCS (Correctover Conformance Shape) runtime evidence & verification for AI agents — 7-dimension tool-call verification, Ed25519 signed receipts, MCP config audit, and offline receipt verification.",
+  "author": {
+    "name": "Guigui Wang",
+    "email": "wangguigui@correctover.com"
+  },
+  "homepage": "https://github.com/DSHCorrectover/ccs-mcp-server#readme",
+  "repository": "https://github.com/DSHCorrectover/ccs-mcp-server",
+  "license": "Elastic-2.0",
+  "keywords": ["mcp", "security", "agent-security", "runtime-verification", "ccs", "receipt", "supply-chain", "ssrf", "prompt-injection"],
+  "skills": ["./skills/ccs-security"],
+  "mcpServers": {
+    "ccs-runtime-evidence": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "ccs-mcp-server@1.2.16"]
+    }
+  }
+}

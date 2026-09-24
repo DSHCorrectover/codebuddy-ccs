@@ -1,0 +1,19 @@
+{
+  "name": "ccs-security-marketplace",
+  "owner": {
+    "name": "Guigui Wang",
+    "email": "wangguigui@correctover.com"
+  },
+  "metadata": {
+    "description": "CCS runtime evidence & verification plugins for CodeBuddy.",
+    "version": "1.2.16"
+  },
+  "plugins": [
+    {
+      "name": "ccs-security",
+      "source": ".",
+      "description": "7-dimension CCS tool-call verification, Ed25519 signed receipts, MCP config audit, and offline receipt verification.",
+      "category": "security"
+    }
+  ]
+}
